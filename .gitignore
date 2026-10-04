@@ -1,0 +1,7 @@
+node_modules/
+.idea/
+# 历史 NW 打包或本地试产物（勿提交）；Tauri 产物在 src-tauri/target/
+build/
+# Vue 产物中的资源目录（随构建变化）；占位页可由 npm run init 生成 dist/index.html
+dist/assets/
+

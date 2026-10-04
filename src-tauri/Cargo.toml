@@ -1,0 +1,16 @@
+[package]
+name = "mms_desktop"
+version = "1.0.0"
+description = "MMS Desktop (Tauri)"
+authors = ["sxpcwlkj"]
+edition = "2021"
+
+[lib]
+name = "mms_desktop_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }

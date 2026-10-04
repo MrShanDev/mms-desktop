@@ -1,0 +1,23 @@
+{
+  "name": "mms-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "将任意 Vue（Vite / Vue CLI）构建产物 dist 封装为 Win / macOS / Linux 桌面应用（Tauri 2）",
+  "scripts": {
+    "predev": "node scripts/check-rust.cjs && node scripts/init-dist.cjs",
+    "prebuild": "node scripts/check-rust.cjs && node scripts/init-dist.cjs",
+    "init": "node scripts/init-dist.cjs",
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "icons:tauri": "tauri icon icons/icon.png",
+    "build:win": "tauri build",
+    "build:mac": "tauri build",
+    "build:linux": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "sirv-cli": "^3.0.0"
+  }
+}
