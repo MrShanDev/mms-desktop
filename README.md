@@ -6,6 +6,7 @@
    <h1>模块化管理系统</h1>
    <p>MMS · Modular Management System</p>
    <p><strong>mms-desktop · 桌面端开发基座（Tauri 2）</strong></p>
+   <p><a href="https://mmsadmin.cn/">📘 在线文档 · mmsadmin.cn</a> · <a href="https://gitee.com/LumeCode/mms-desktop">Gitee</a> · <a href="https://github.com/MrShanDev/mms-desktop">GitHub</a></p>
    <br/>
 </div>
 
