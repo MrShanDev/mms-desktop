@@ -1,4 +1,12 @@
-# mms-desktop
+<div align="center">
+   <br/>
+   <a href="https://mmsadmin.cn">
+     <img width="150" src="https://mmsadmin.cn/logo.png" alt="MMS logo">
+   </a>
+   <h1>MMS（模块化管理系统，Modular Management System）</h1>
+   <p><strong>mms-desktop · 桌面端开发基座（Tauri 2）</strong></p>
+   <br/>
+</div>
 
 将 **任意 Vue 项目**（Vite、`vue-cli-service` 等）产出的 **`dist/`** 封装为 **Windows / macOS / Linux** 桌面应用（[Tauri 2](https://v2.tauri.app/)）。
 
@@ -78,7 +86,7 @@ source "$HOME/.cargo/env"
 ### 5. 进入工程并装 npm 依赖
 
 ```bash
-cd /path/to/mms-plus/mms-desktop
+cd /path/to/mms-desktop
 npm install
 ```
 
@@ -124,7 +132,7 @@ rustc --version
 ### 5. 进入工程并装 npm 依赖
 
 ```powershell
-cd C:\path\to\mms-plus\mms-desktop
+cd C:\path\to\mms-desktop
 npm install
 ```
 
@@ -169,7 +177,7 @@ cargo --version
 ### 4. 进入工程并装 npm 依赖
 
 ```bash
-cd /path/to/mms-plus/mms-desktop
+cd /path/to/mms-desktop
 npm install
 ```
 
