@@ -187,12 +187,12 @@ npm install
 |------|------|
 | 安装 npm 依赖 | `npm install` |
 | 无 Vue 产物时生成占位页 | `npm run init`（不覆盖已有 **`dist/index.html`**） |
-| 用真实 Vue 构建结果 | 将 **`mms-server/mms-ui/dist`**（或你的项目 `dist`）**整目录**拷入本目录 **`dist/`** |
+| 用真实 Vue 构建结果 | 将 **`mms-ui/dist`**（或你的项目 `dist`）**整目录**拷入本目录 **`dist/`** |
 
 示例（路径按你本机修改）：
 
 ```bash
-rm -rf dist && cp -R ../mms-server/mms-ui/dist ./dist
+rm -rf dist && cp -R ../mms-ui/dist ./dist
 ```
 
 前端 **`vite.config`** 建议 **`base: './'`**（或等价相对资源路径），否则桌面内嵌时易 404。
